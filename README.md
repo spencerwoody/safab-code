@@ -2,16 +2,17 @@
 # Code supplement for "Optimal post-selection inference" by Woody, Padilla & Scott
 
 This code replicates the simulation and real data examples from the
-paper ["Optimal post-selection inference"][saFAB] by Woody, Padilla,
+paper ["Optimal post-selection inference"][saFAB paper] by Woody, Padilla,
 and Scott (2020).
 
 ## Install saFAB R package
 
-First, install the R package `saFAB` (located within the `saFAB/`
-directory) with the following command:
+First, install the R package [`saFAB`][saFAB package] with the
+following command:
 
 ```r
-install.packages("saFAB", type = "source", repos = NULL)
+## install.packages("devtools")
+devtools::install_github("spencerwoody/saFAB")
 ```
 
 ## Contents
@@ -57,5 +58,7 @@ these applications, along with the corresponding scripts.
 
 <!-- Links -->
 
-[saFAB]: https://arxiv.org/abs/1810.11042
+[saFAB paper]: https://arxiv.org/abs/1810.11042
+[saFAB package]: https://github.com/spencerwoody/safab
+
 
